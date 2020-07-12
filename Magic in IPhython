@@ -1,0 +1,18 @@
+In [8]: x=3
+
+In [9]: y=4.12
+
+In [10]: a=[1,2,3,4]
+
+In [11]: s='abcdef'
+
+In [12]: z={1,2,3,4}
+
+In [13]: %whos
+Variable   Type     Data/Info
+-----------------------------
+a          list     n=4
+s          str      abcdef
+x          int      3
+y          float    4.12
+z          set      {1, 2, 3, 4}
