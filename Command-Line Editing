@@ -1,0 +1,39 @@
+{1, 4, 5, 7, 9}
+
+In [6]: (2+3)*(4+5)
+Out[6]: 45
+
+In [7]: (2+3)*(4+6)
+Out[7]: 50
+
+In [8]: %histroy
+UsageError: Line magic function `%histroy` not found.
+
+In [9]: %history
+my_set={1,4,7,9}
+my_list=[1,2,3,4]
+%history
+my_set={1,4,7,9,5}
+print(my_set)
+(2+3)*(4+5)
+(2+3)*(4+6)
+%histroy
+%history
+
+In [10]: 2+2
+Out[10]: 4
+
+In [11]: print(In)
+['', 'my_set={1,4,7,9}', 'my_list=[1,2,3,4]', "get_ipython().run_line_magic('histo
+ry', '')", 'my_set={1,4,7,9,5}', 'print(my_set)', '(2+3)*(4+5)', '(2+3)*(4+6)', "g
+et_ipython().run_line_magic('histroy', '')", "get_ipython().run_line_magic('histor
+y', '')", '2+2', 'print(In)']
+
+In [12]: print(Out)
+{6: 45, 7: 50, 10: 4}
+
+In [13]: type(In)
+Out[13]: list
+
+In [14]: type(Out)
+Out[14]: dict
